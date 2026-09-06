@@ -1,0 +1,38 @@
+<section id="experiencia" class="section section--dark experience">
+  <div class="section-inner">
+    <h2 class="experience__title" appReveal>{{ content().ui.experienceTitle }}</h2>
+
+    <ol class="timeline">
+      @for (job of content().experiences; track job.company) {
+        <li class="timeline__item" appReveal>
+          <div class="timeline__marker"></div>
+
+          <div class="timeline__card">
+            <div class="timeline__head">
+              <div>
+                <h3 class="timeline__role">{{ job.role }}</h3>
+                <p class="timeline__company">{{ job.company }}</p>
+              </div>
+              <div class="timeline__meta">
+                <span>{{ job.period }}</span>
+                <span>{{ job.location }}</span>
+              </div>
+            </div>
+
+            <ul class="timeline__highlights">
+              @for (highlight of job.highlights; track highlight) {
+                <li>{{ highlight }}</li>
+              }
+            </ul>
+
+            <div class="timeline__stack">
+              @for (tech of job.stack; track tech) {
+                <span class="chip">{{ tech }}</span>
+              }
+            </div>
+          </div>
+        </li>
+      }
+    </ol>
+  </div>
+</section>

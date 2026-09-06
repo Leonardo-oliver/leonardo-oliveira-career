@@ -1,0 +1,15 @@
+<section id="formacao" class="section section--dim education">
+  <div class="section-inner">
+    <h2 class="education__title" appReveal>{{ content().ui.educationTitle }}</h2>
+
+    <div class="education__list" appReveal>
+      @for (item of content().education; track item.school) {
+        <div class="education__item">
+          <p class="education__school">{{ item.school }}</p>
+          <p class="education__degree">{{ item.degree }}</p>
+          <p class="education__period">{{ item.period }}</p>
+        </div>
+      }
+    </div>
+  </div>
+</section>

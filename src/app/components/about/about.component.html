@@ -1,0 +1,29 @@
+<section id="sobre" class="section about">
+  <div class="section-inner">
+    <h2 class="about__headline" appReveal>{{ content().ui.aboutHeadline }}</h2>
+
+    <p class="about__summary" appReveal>{{ content().profile.summary }}</p>
+
+    <div class="about__stats" appReveal>
+      @for (stat of content().stats; track stat.label) {
+        <div class="stat">
+          <span class="stat__value">{{ stat.value }}</span>
+          <span class="stat__label">{{ stat.label }}</span>
+        </div>
+      }
+    </div>
+
+    <div class="about__highlights">
+      <h3 class="about__highlights-title" appReveal>{{ content().ui.aboutHighlightsTitle }}</h3>
+
+      <div class="highlight-grid" appReveal>
+        @for (item of content().highlights; track item.title) {
+          <div class="highlight-card">
+            <h4>{{ item.title }}</h4>
+            <p>{{ item.description }}</p>
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</section>

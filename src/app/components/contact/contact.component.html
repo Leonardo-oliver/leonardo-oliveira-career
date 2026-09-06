@@ -1,0 +1,12 @@
+<section id="contato" class="section section--dark contact">
+  <div class="section-inner">
+    <h2 class="contact__title" appReveal>{{ content().ui.contactTitle }}</h2>
+    <p class="contact__subtitle" appReveal>{{ content().ui.contactSubtitle }}</p>
+
+    <div class="contact__links" appReveal>
+      <a class="btn btn--primary" [href]="'mailto:' + content().profile.email">{{ content().profile.email }}</a>
+      <a class="contact__secondary" [href]="'tel:' + content().profile.phone">{{ content().profile.phone }}</a>
+      <a class="contact__secondary" [href]="content().profile.linkedin" target="_blank" rel="noopener">LinkedIn ›</a>
+    </div>
+  </div>
+</section>

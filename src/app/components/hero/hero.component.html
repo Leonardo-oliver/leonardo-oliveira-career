@@ -1,0 +1,25 @@
+<section id="top" class="hero">
+  <div class="hero__bg" aria-hidden="true">
+    <span class="orb orb--blue"></span>
+    <span class="orb orb--purple"></span>
+    <span class="orb orb--teal"></span>
+    <div class="hero__grid"></div>
+  </div>
+
+  <div class="hero__content">
+    <h1 class="hero__name">{{ content().profile.name }}</h1>
+    <p class="hero__role">{{ content().profile.role }}</p>
+    <p class="hero__tagline">{{ content().profile.tagline }}</p>
+
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="#experiencia">{{ content().ui.heroPrimaryCta }}</a>
+      <a class="btn btn--ghost" [href]="'mailto:' + content().profile.email">{{ content().ui.heroSecondaryCta }}</a>
+    </div>
+  </div>
+
+  <a class="hero__scroll-cue" href="#sobre" aria-label="Scroll down">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <path d="M12 4v14m0 0-6-6m6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </a>
+</section>
