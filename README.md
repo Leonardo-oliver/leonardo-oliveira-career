@@ -1,4 +1,4 @@
-# Leonardo Oliveira Das Neves — Portfólio
+# Leonardo Oliveira Das Neves - Portfólio
 
 Site pessoal em Angular apresentando experiência profissional, no estilo visual da apple.com.
 
