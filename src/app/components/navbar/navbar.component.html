@@ -1,10 +1,10 @@
 <header class="nav" [class.nav--scrolled]="scrolled()">
   <div class="nav__inner">
-    <a class="nav__brand" href="#top">{{ content().profile.name.split(' ')[0] }} {{ content().profile.name.split(' ')[1] }}</a>
+    <a class="nav__brand" href="#top">{{ content().profile.name.split(' ')[0] }} </a>
 
     <nav class="nav__links">
       @for (link of content().ui.navLinks; track link.href) {
-        <a [href]="link.href">{{ link.label }}</a>
+      <a [href]="link.href">{{ link.label }}</a>
       }
     </nav>
 
@@ -15,28 +15,21 @@
       <a class="nav__cta" [href]="'mailto:' + content().profile.email">{{ content().ui.navCta }}</a>
     </div>
 
-    <button
-      class="nav__toggle"
-      type="button"
-      [class.is-open]="menuOpen()"
-      (click)="toggleMenu()"
-      [attr.aria-expanded]="menuOpen()"
-      aria-label="Menu"
-    >
+    <button class="nav__toggle" type="button" [class.is-open]="menuOpen()" (click)="toggleMenu()" [attr.aria-expanded]="menuOpen()" aria-label="Menu">
       <span></span>
       <span></span>
     </button>
   </div>
 
   @if (menuOpen()) {
-    <nav class="nav__mobile">
-      @for (link of content().ui.navLinks; track link.href) {
-        <a [href]="link.href" (click)="closeMenu()">{{ link.label }}</a>
-      }
-      <a [href]="'mailto:' + content().profile.email" (click)="closeMenu()">{{ content().ui.navCta }}</a>
-      <button class="nav__mobile-lang" type="button" (click)="toggleLang()">
-        {{ content().ui.langToggleLabel === 'EN' ? 'English' : 'Português' }}
-      </button>
-    </nav>
+  <nav class="nav__mobile">
+    @for (link of content().ui.navLinks; track link.href) {
+    <a [href]="link.href" (click)="closeMenu()">{{ link.label }}</a>
+    }
+    <a [href]="'mailto:' + content().profile.email" (click)="closeMenu()">{{ content().ui.navCta }}</a>
+    <button class="nav__mobile-lang" type="button" (click)="toggleLang()">
+      {{ content().ui.langToggleLabel === 'EN' ? 'English' : 'Português' }}
+    </button>
+  </nav>
   }
 </header>
