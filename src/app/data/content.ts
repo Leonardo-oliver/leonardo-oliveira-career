@@ -91,9 +91,9 @@ export const CONTENT: Record<'pt' | 'en', LangContent> = {
       tagline: 'Angular · React · TypeScript · 9+ anos construindo aplicações em escala.',
       email: 'leonardodk1@outlook.com',
       phone: '+55 11 96163-7002',
-      linkedin: 'https://www.linkedin.com/in/leonardooliveira-das-neves-a6153811b',
+      linkedin: 'https://www.linkedin.com/in/leonardo-oliveira-das-neves-a6153811b/',
       summary:
-        'Engenheiro Front-End Sênior com mais de 9 anos de experiência, especializado em Angular, React, TypeScript e JavaScript, com atuação também em back-end com Node.js. Já contribuí para aplicações enterprise em instituições financeiras, seguros, saúde e e-commerce — sempre com foco em arquitetura escalável, qualidade de código e times ágeis. Também tenho experiência mentorando desenvolvedores, participando de entrevistas técnicas, decisões arquiteturais e liderança técnica.',
+        'Engenheiro Front-End Sênior com mais de 9 anos de experiência, arquitetando software crítico para negócios que não podem parar: bancos como Santander, Itaú Unibanco e C6 Bank, saúde na SulAmérica e AmorSaúde, e e-commerce do Grupo Boticário. Tenho domínio sólido em arquitetura Front-End e sistemas escaláveis, com foco em performance, componentização e design systems, e atuo lado a lado com Product Owners, UX/UI, Back-End, QA e DevOps em times ágeis. Também mentorei mais de 10 desenvolvedores e participei de dezenas de entrevistas técnicas.',
     },
     stats: [
       { value: `${YEARS_OF_EXPERIENCE}+`, label: 'anos de experiência' },
@@ -254,7 +254,7 @@ export const CONTENT: Record<'pt' | 'en', LangContent> = {
       phone: '+55 11 96163-7002',
       linkedin: 'https://www.linkedin.com/in/leonardooliveira-das-neves-a6153811b',
       summary:
-        "Senior Front-End Engineer with 9+ years of experience, specializing in Angular, React, TypeScript, and JavaScript, with additional experience building backend solutions in Node.js. I've contributed to enterprise applications across financial services, insurance, healthcare, and e-commerce — always focused on scalable architecture, code quality, and agile teams. I also have experience mentoring developers, running technical interviews, and driving architectural decisions and technical leadership.",
+        "Senior Front-End Engineer with 9+ years of experience architecting mission-critical software for businesses that can't afford downtime: banks like Santander, Itaú Unibanco, and C6 Bank, healthcare at SulAmérica and AmorSaúde, and e-commerce for Grupo Boticário. I have strong expertise in Front-End architecture and scalable systems, focused on performance, componentization, and design systems, and I work closely with Product Owners, UX/UI, Back-End, QA, and DevOps in Agile teams. I've also mentored 10+ developers and taken part in dozens of technical interviews.",
     },
     stats: [
       { value: `${YEARS_OF_EXPERIENCE}+`, label: 'years of experience' },
