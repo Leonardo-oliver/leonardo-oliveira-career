@@ -252,7 +252,7 @@ export const CONTENT: Record<'pt' | 'en', LangContent> = {
       tagline: 'Angular · React · TypeScript · 9+ years building applications at scale.',
       email: 'leonardodk1@outlook.com',
       phone: '+55 11 96163-7002',
-      linkedin: 'https://www.linkedin.com/in/leonardooliveira-das-neves-a6153811b',
+      linkedin: 'https://www.linkedin.com/in/leonardo-oliveira-das-neves-a6153811b/',
       summary:
         "Senior Front-End Engineer with 9+ years of experience architecting mission-critical software for businesses that can't afford downtime: banks like Santander, Itaú Unibanco, and C6 Bank, healthcare at SulAmérica and AmorSaúde, and e-commerce for Grupo Boticário. I have strong expertise in Front-End architecture and scalable systems, focused on performance, componentization, and design systems, and I work closely with Product Owners, UX/UI, Back-End, QA, and DevOps in Agile teams. I've also mentored 10+ developers and taken part in dozens of technical interviews.",
     },
