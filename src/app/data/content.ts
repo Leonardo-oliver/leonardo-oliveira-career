@@ -93,7 +93,7 @@ export const CONTENT: Record<'pt' | 'en', LangContent> = {
       phone: '+55 11 96163-7002',
       linkedin: 'https://www.linkedin.com/in/leonardo-oliveira-das-neves-a6153811b/',
       summary:
-        'Engenheiro Front-End Sênior com mais de 9 anos de experiência, arquitetando software crítico para negócios que não podem parar: bancos como Santander, Itaú Unibanco e C6 Bank, saúde na SulAmérica e AmorSaúde, e e-commerce do Grupo Boticário. Tenho domínio sólido em arquitetura Front-End e sistemas escaláveis, com foco em performance, componentização e design systems, e atuo lado a lado com Product Owners, UX/UI, Back-End, QA e DevOps em times ágeis. Também mentorei mais de 10 desenvolvedores e participei de dezenas de entrevistas técnicas.',
+        'Engenheiro Front-End Sênior com mais de 9 anos de experiência, arquitetando software crítico para negócios que não podem parar: bancos como Santander, Itaú Unibanco e C6 Bank, saúde na SulAmérica e AmorSaúde, e e-commerce do Grupo Boticário. Tenho domínio sólido em arquitetura Front-End e sistemas escaláveis, com foco em performance, componentização e design systems, e atuo lado a lado com Product Owners, UX/UI, Back-End, QA e DevOps em times ágeis. Também mentorei mais de 10 desenvolvedores e fui responsável pelas entrevistas técnicas de novos desenvolvedores.',
     },
     stats: [
       { value: `${YEARS_OF_EXPERIENCE}+`, label: 'anos de experiência' },
@@ -254,7 +254,7 @@ export const CONTENT: Record<'pt' | 'en', LangContent> = {
       phone: '+55 11 96163-7002',
       linkedin: 'https://www.linkedin.com/in/leonardo-oliveira-das-neves-a6153811b/',
       summary:
-        "Senior Front-End Engineer with 9+ years of experience architecting mission-critical software for businesses that can't afford downtime: banks like Santander, Itaú Unibanco, and C6 Bank, healthcare at SulAmérica and AmorSaúde, and e-commerce for Grupo Boticário. I have strong expertise in Front-End architecture and scalable systems, focused on performance, componentization, and design systems, and I work closely with Product Owners, UX/UI, Back-End, QA, and DevOps in Agile teams. I've also mentored 10+ developers and taken part in dozens of technical interviews.",
+        "Senior Front-End Engineer with 9+ years of experience architecting mission-critical software for businesses that can't afford downtime: banks like Santander, Itaú Unibanco, and C6 Bank, healthcare at SulAmérica and AmorSaúde, and e-commerce for Grupo Boticário. I have strong expertise in Front-End architecture and scalable systems, focused on performance, componentization, and design systems, and I work closely with Product Owners, UX/UI, Back-End, QA, and DevOps in Agile teams. I've also mentored 10+ developers and was responsible for technical interviews for new hires.",
     },
     stats: [
       { value: `${YEARS_OF_EXPERIENCE}+`, label: 'years of experience' },
